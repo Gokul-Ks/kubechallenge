@@ -79,10 +79,9 @@ Check that the pods were created:
 ```sh
 kubectl get pods --watch
 ```
-![check pods](images/chkpod.png)
 
 wait until you all pods are ready
-![ready pods](images/readypod.png)
+
 
 ## Use the built-in SQL client
 
@@ -100,5 +99,3 @@ kubectl exec -it cockroachdb-client-secure \
 --certs-dir=/cockroach/cockroach-certs \
 --host=cockroachdb-public
 ```
-
-![shell](images/qur.png)
